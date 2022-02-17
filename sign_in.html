@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/18869e5e78.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Sign-In to Real Fitness</title>
+</head>
+<body>
+    
+     <!-- Navbar -->
+     <nav class="navbar">
+        <div class="nav-container">
+            <ul class="navlist">
+                <li class="nav-item">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#classes">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sign_in.html">Sign-In</a>
+                </li>
+                <li class="nav-item">
+                    <a href="sign_out.html">Sign-Out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sign-In Form -->
+    <section class="signform">
+        <h2>Sign In</h2>
+        <form>
+            <label for="number">Real Fitness ID Number</label><br>
+            <input type="text" id="number" placeholder="########"><br>
+            <label for="class">Which Class are You Joining Today?</label><br>
+            <select name="class" id="classdd">
+                <option value="Barre">Barre</option>
+                <option value="Body Combat">Body Combat</option>
+                <option value="Body Pump">Body Pump</option>
+                <option value="Bootcamp">bootcamp</option>
+                <option value="Pilates">Pilates</option>
+                <option value="Spin">Spin</option>
+                <option value="Yoga">Yoga</option>
+                <option value="Zumba">Zumba</option>
+            </select>
+            <br>
+            <button>
+                <a href="index.html" id="sign-in-button">Sign In</a>
+            </button>
+        </form>
+    </section>
+
+     <!-- Footer -->
+     <footer>
+        <div class="bottom">
+            <div>
+                <img src="general_images/Real FITNESS.png" alt="Real Fitness Logo"  class="logo">
+            </div>
+            <div class="socials">
+                <h3 class="socialhead">Socials</h3>
+                <div class="icons">
+                    <a href="#"><p>
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </p></a>
+                    <a href="#"><p>
+                        <i class="fab fa-instagram"></i> Instagram
+                    </p></a>
+                    <a href="#"><p>
+                        <i class="fab fa-tiktok"></i> TikTok
+                    </p></a>
+                    <a href="#"><p>
+                        <i class="fab fa-youtube"></i> YouTube
+                    </p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

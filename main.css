@@ -1,0 +1,245 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: white;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.quote {
+    z-index: 1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: rgb(139, 40, 40);
+    display: flex;
+    font-size: 3em;
+    text-shadow: -1px 1px 2px #000,
+                  1px 1px 0   #000,
+                  1px -1px 0  #000,
+                  -1px -1px 0 #000;
+}
+
+.classes-grid {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 5%;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 50px;
+}
+
+.box {
+    max-width: 250px;
+    height: auto;
+}
+
+.grid-img {
+    object-fit: cover;
+    max-width: 250px;
+    height: auto;
+}
+
+.grid-text {
+    text-align: center;
+    color: rgb(139, 40, 40);
+    text-shadow: -1px 1px 2px #000,
+                  1px 1px 0   #000,
+                  1px -1px 0  #000,
+                  -1px -1px 0 #000;
+    font-size: x-large;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-bottom: 0px;
+
+}
+
+.logo {
+    height: 300px;
+}
+
+.socials {
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.socialhead {
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+.about {
+    background-color: darkgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 39px;
+    height: 600px;
+}
+
+.aboutrf {
+    width: 50%;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: larger;   
+}
+
+.abouthead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#aboutlink {
+    text-decoration: none;
+    color: rgb(139, 40, 40);
+}
+
+.signform {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 3px;
+    background-color: rgb(139, 40, 40);
+    border: 3px solid lightgray;
+    border-radius: 3px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    height: 350px;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+select {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #000;
+}
